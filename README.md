@@ -1,5 +1,5 @@
 # Ecto
-Exemplo de relacionamentos no **Ecto**.
+Exemplos de relacionamentos no **Ecto**.
 ## Tipos de relacionamentos
 
 - um-para-um
