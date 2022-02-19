@@ -1,4 +1,4 @@
-# EctoLessons
+# Ecto
 Exemplo de relacionamentos no **Ecto**.
 ## Tipos de relacionamentos
 
