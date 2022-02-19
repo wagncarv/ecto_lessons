@@ -1,18 +1,17 @@
 defmodule Friends.Character do
-    use Ecto.Schema
-    import Ecto.Changeset
-    alias Friends.Movie
+  use Ecto.Schema
+  import Ecto.Changeset
+  alias Friends.Movie
 
-    @fields []
+  @fields []
 
-    schema "character" do
-        field :name, :string
-        belongs_to :movie, Movie
-    end
+  schema "character" do
+    field(:name, :string)
+    belongs_to(:movie, Movie)
+  end
 
-    def change(struct \\ %__MODULE__{}, params) do
-        struct
-        |> cast(params, @fields)
-    end
-
+  def change(struct \\ %__MODULE__{}, params) do
+    struct
+    |> cast(params, @fields)
+  end
 end
